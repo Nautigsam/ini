@@ -51,6 +51,7 @@ var expectD =
          '[]': 'a square?',
          cr: ['four', 'eight'],
          b: { c: { e: '1', j: '2' } } },
+      b: {},
       'x.y.z': {
         'x.y.z': 'xyz',
         'a.b.c': {

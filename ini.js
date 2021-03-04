@@ -62,8 +62,8 @@ const decode = str => {
   const out = Object.create(null)
   let p = out
   let section = null
-  //          section     |key      = value
-  const re = /^\[([^\]]*)\]$|^([^=]+)(=(.*))?$/i
+  //          section         |key      = value
+  const re = /^\[([^\]]*)\].*$|^([^=]+)(=(.*))?$/i
   const lines = str.split(/[\r\n]+/g)
 
   for (const line of lines) {
